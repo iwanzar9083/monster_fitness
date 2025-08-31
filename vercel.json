@@ -7,7 +7,7 @@
       "dest": "/api/index.ts"
     },
     {
-      "src": "/(.*)",
+      "src": "/((?!api/|assets/).*)",
       "dest": "/index.html"
     }
   ]
